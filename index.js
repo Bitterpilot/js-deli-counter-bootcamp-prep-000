@@ -26,7 +26,7 @@ function currentLine(customerList) {
       line = [...line, index + 1 + ". "+ item];
       });
     // line = [...line, customerList];
-    console.log(line);
+    console.log(line.join());
     return "The line is currently: "
   }
 }
