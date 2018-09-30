@@ -20,8 +20,10 @@ function currentLine(customerList) {
   if (currentCustomer == undefined) {
     return "The line is currently empty."
   } else {
-    var line = ["The line is currently: "]
-    line = [...line, customerList]
+    var line = ["The line is currently: "];
+    console.log(line);
+    line = [...line, customerList];
+    console.log(line);
     return "The line is currently: "
   }
 }
