@@ -6,5 +6,5 @@ function takeANumber(initialList, newCustomer) {
 }
 
 function nowServing(currentLine) {
-  
+
 }
