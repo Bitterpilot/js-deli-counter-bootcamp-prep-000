@@ -27,6 +27,6 @@ function currentLine(customerList) {
         return array
       }
     );
-    return "The line is currently: "
+    return "The line is currently: " + array
   }
 }
