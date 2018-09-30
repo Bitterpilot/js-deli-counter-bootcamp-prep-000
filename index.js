@@ -10,6 +10,7 @@ function nowServing(customerList) {
   if (currentCustomer == undefined) {
     return 'There is nobody waiting to be served!'
   } else {
+    var currentCustomer = customerList.shift();
     return "Currently serving " + currentCustomer + "."
   }
 }
