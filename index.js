@@ -5,6 +5,6 @@ function takeANumber(customerList, newCustomer) {
     return welcomeMessage;
 }
 
-function functionName() {
-  
+function nowServing() {
+
 }
