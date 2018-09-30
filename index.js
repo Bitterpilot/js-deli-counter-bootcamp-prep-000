@@ -24,9 +24,9 @@ function currentLine(customerList) {
       function(item, index, array) {
         var st = index + 1 + ". " + item;
         var ar = [...ar, st];
-        return array
+        return ar
       }
     );
-    return "The line is currently: " + array
+    return "The line is currently: " + ar
   }
 }
