@@ -7,6 +7,9 @@ function takeANumber(customerList, newCustomer) {
 
 function nowServing(customerList) {
   var currentCustomer = customerList[0];
-  console.log(currentCustomer);
-  //"Currently serving " ++ "."
+  if (currentCustomer == undefined) {
+    return 'There is nobody waiting to be served!'
+  } else {
+    return "Currently serving " + currentCustomer + "."
+  }
 }
