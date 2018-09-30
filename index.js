@@ -22,9 +22,9 @@ function currentLine(customerList) {
   } else {
     var line = ["The line is currently: "];
     customerList.forEach(function(item, index, array) {
-      line = [...line, index + 1 + ". "+ item];
+      line = [...line, index + 1 + ". " + item + ","];
       });
-    console.log(line.join());
+    console.log(line.join( ));
     return line.join()
   }
 }
