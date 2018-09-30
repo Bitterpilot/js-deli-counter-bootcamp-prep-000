@@ -21,7 +21,8 @@ function currentLine(customerList) {
     return "The line is currently empty."
   } else {
     var line = ["The line is currently: "]
-    
+    console.log(line);
+    line = [...line, ]
     return "The line is currently: " + 
   }
 }
