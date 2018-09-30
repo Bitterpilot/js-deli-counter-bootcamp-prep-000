@@ -25,6 +25,6 @@ function currentLine(customerList) {
         console.log(index + 1 + ".", item);
       }
     );
-    return "The line is currently: " + list
+    return "The line is currently: "
   }
 }
