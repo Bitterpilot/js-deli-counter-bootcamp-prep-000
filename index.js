@@ -24,7 +24,6 @@ function currentLine(customerList) {
     customerList.forEach(function(item, index, array) {
       line = [...line, index + 1 + ". " + item + ","];
       });
-    console.log(line.join(' '));
     return line.join(' ')
   }
 }
