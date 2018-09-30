@@ -23,6 +23,8 @@ function currentLine(customerList) {
     customerList.forEach(
       function(item, index, array) {
         var st = index + 1 + ". " + item;
+        var ar = [...ar, st];
+        return array
       }
     );
     return "The line is currently: "
