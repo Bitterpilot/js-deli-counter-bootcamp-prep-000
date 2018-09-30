@@ -22,7 +22,10 @@ function currentLine(customerList) {
   } else {
     var line = ["The line is currently: "];
     console.log(line);
-    line = [...line, customerList];
+    line.forEach(function(item, index, array) {
+      line = [...line, index];
+      });
+    // line = [...line, customerList];
     console.log(line);
     return "The line is currently: "
   }
