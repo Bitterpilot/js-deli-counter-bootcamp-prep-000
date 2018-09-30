@@ -21,12 +21,10 @@ function currentLine(customerList) {
     return "The line is currently empty."
   } else {
     var line = ["The line is currently: "];
-    console.log(line);
     customerList.forEach(function(item, index, array) {
       line = [...line, index + 1 + ". "+ item];
       });
-    // line = [...line, customerList];
     console.log(line.join());
-    return "The line is currently: "
+    return line.join()
   }
 }
