@@ -20,7 +20,7 @@ function currentLine(customerList) {
   if (currentCustomer == undefined) {
     return "The line is currently empty."
   } else {
-    var line = ["The line is currently: "];
+    var line = ["The line is currently:"];
     customerList.forEach(function(item, index, array) {
       line = [...line, index + 1 + ". " + item + ","];
       });
