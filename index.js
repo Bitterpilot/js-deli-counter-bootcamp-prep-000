@@ -1,5 +1,5 @@
 function takeANumber(customerList, newCustomer) {
-    var customerList = customerList.push(newCustomer);
+    var customerList2 = customerList.push(newCustomer);
     var postion = customerList.indexOf();
     console.log(customerList);
     console.log(postion);    
