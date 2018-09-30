@@ -23,6 +23,6 @@ function currentLine(customerList) {
     var line = ["The line is currently: "]
     console.log(line);
     line = [...line, ]
-    return "The line is currently: " + 
+    return "The line is currently: " +;
   }
 }
