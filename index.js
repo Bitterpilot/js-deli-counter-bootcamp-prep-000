@@ -22,6 +22,7 @@ function currentLine(customerList) {
   } else {
     customerList.forEach(function(item, index, array) {
     var list = index + 1 + ".", item;
+    console.log(list);
     return list
 });
     return "The line is currently: "
