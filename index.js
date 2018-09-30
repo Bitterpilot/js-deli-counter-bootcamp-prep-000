@@ -8,5 +8,5 @@ function takeANumber(customerList, newCustomer) {
 function nowServing(customerList) {
   var currentCustomer = customerList[0];
   console.log(currentCustomer);
-  "Currently serving " ++ "."
+  //"Currently serving " ++ "."
 }
