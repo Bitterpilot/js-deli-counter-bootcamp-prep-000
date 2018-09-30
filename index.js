@@ -24,6 +24,6 @@ function currentLine(customerList) {
     customerList.forEach(function(item, index, array) {
       line = [...line, index + 1 + ". " + item];
       });
-    return "The line is currently:" + line.join(', ')
+    return "The line is currently: " + line.join(', ')
   }
 }
