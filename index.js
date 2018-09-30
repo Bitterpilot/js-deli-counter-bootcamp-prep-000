@@ -24,8 +24,7 @@ function currentLine(customerList) {
     customerList.forEach(
       function(item, index, array) {
         console.log(index + 1 + ".", item);
-        list = list.push(index + 1 + ".", item);
-        console.log(list);
+        
       }
     );
     return "The line is currently: " + list
