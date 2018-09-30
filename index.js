@@ -21,7 +21,7 @@ function currentLine(customerList) {
     return "The line is currently empty."
   } else {
     customerList.forEach(function(item, index, array) {
-    var list = index + 1 + ".", item;
+    var list = (index + 1 + ".", item);
     console.log(list);
     return list
 });
