@@ -21,6 +21,6 @@ function currentLine(customerList) {
     return "The line is currently empty."
   } else {
     customerList.forEach();
-    return "The line is currently: " 
+    return "The line is currently: "
   }
 }
