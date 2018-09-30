@@ -20,7 +20,6 @@ function currentLine(customerList) {
   if (currentCustomer == undefined) {
     return "The line is currently empty."
   } else {
-    var currentCustomer = customerList.shift();
-    return "Currently serving " + currentCustomer + "."
+    return "The line is currently: " 
   }
 }
