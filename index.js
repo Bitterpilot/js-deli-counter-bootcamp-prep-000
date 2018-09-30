@@ -6,5 +6,6 @@ function takeANumber(customerList, newCustomer) {
 }
 
 function nowServing(customerList) {
-  
+  var currentCustomer = customerList[0];
+  "Currently serving " ++ "."
 }
