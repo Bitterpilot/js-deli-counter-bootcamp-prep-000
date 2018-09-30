@@ -24,6 +24,7 @@ function currentLine(customerList) {
       function(item, index, array) {
         var st = index + 1 + ". " + item;
         var ar = [...ar, st];
+        console.log(ar);
         return ar
       }
     );
