@@ -4,3 +4,7 @@ function takeANumber(customerList, newCustomer) {
     var welcomeMessage = "Welcome, " + newCustomer + ". You are number " + postion + " in line.";
     return welcomeMessage;
 }
+
+function nowServing(currentLine) {
+  
+}
