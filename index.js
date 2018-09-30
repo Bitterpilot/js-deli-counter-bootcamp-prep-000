@@ -14,3 +14,13 @@ function nowServing(customerList) {
     return "Currently serving " + currentCustomer + "."
   }
 }
+
+function currentLine(customerList) {
+  var currentCustomer = customerList[0];
+  if (currentCustomer == undefined) {
+    return "The line is currently empty."
+  } else {
+    var currentCustomer = customerList.shift();
+    return "Currently serving " + currentCustomer + "."
+  }
+}
